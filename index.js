@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser')
 const URL = require('./models/url');
 const connectToDb = require('./connect');
 const { restrictToLoggedinUserOnly, checkAuth } = require('./middleware/auth')
+
 // Routes
 const urlRoute = require('./routes/url');
 const staticRoute = require('./routes/staticRouter')
